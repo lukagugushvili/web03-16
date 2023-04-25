@@ -6,7 +6,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1200px;
 }
 
 ul, a {
@@ -25,6 +25,7 @@ header {
     top: 0;
     width: 100%;
     height: 73px;
+    z-index: 1;
 }
 
 .header-container {
@@ -139,3 +140,86 @@ nav ul {
     width: 20px;
     height: 20px;
 }
+
+/* section2 */
+
+.conceptio-and-creation-container{
+    position: relative;
+    margin: 165px 90px;
+    max-width: 1400px;
+    height: 847px;
+    border-radius: 6px 6px;
+    background-color: white;
+}
+
+.blue-arrow img {
+    position: absolute;
+    left: -12px;
+    top: -12px;
+    width: 30px;
+    height: 30px;
+}
+
+.conceptio-and-creation-container-title h2 {
+    width: 200px;
+    line-height: 30px;
+    padding-top: 90px;
+}
+
+.conceptio-and-creation-container-title p {
+    width: 500px;
+    line-height: 30px;
+    padding-top: 65px;
+}
+
+.blue-section-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 428px;
+    border-radius: 0px 0px 6px 6px;
+    background-color: rgba(8, 101, 222, 1);
+}
+
+.blue-box-rows  {
+    display: flex;
+    gap: 170px;
+    padding-top: 60px;
+    width: 278px;
+}
+
+/* .blue-box-rows-links::after {
+    content: "1";
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+} */
+
+.blue-box-rows h2 {
+    letter-spacing: 4.8px;
+    color: white;
+}
+
+.blue-box-rows li {
+    padding-top: 25px;
+    line-height: 20px;
+}
+
+.blue-box-rows a {
+    display: inline-block;
+    width: 300px;
+    letter-spacing: 1.3px;
+    font-size: 16px;
+    line-height: 35px;
+    color: white;
+}
+
+.blue-box-rows  p {
+    letter-spacing: 1.1px;
+    font-size: 14px;
+    color: rgba(209, 209, 209, 1);
+}
+
+
+
