@@ -15,6 +15,7 @@ ul, a {
 }
 
 body {
+    overflow-x: hidden;
     background-color: rgba(247, 247, 247, 1);
 }
 
@@ -487,6 +488,102 @@ nav ul {
     transform: translate(20px, 20px);
 }
 
+/* section6 */
+
+.comment-container h2 {
+    margin-top: 120px;
+    letter-spacing: 5px;
+}
+
+.about-comment-container {
+    display: flex;
+    gap: 110px;
+    padding-top: 90px;
+}
+
+.about-comment-container h3 {
+    letter-spacing: 5px;
+}
+
+.about-comment-container p {
+    padding-top: 60px;
+    width: 400px;
+    line-height: 25px;
+}
+
+.comment-button {
+    padding-top: 60px;
+    display: inline-block;
+}
+
+.comment-button button {
+    width: 230px;
+    height: 48px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16);
+    background-color: white;
+}
+
+.comment-button h5 {
+    display: inline-block;
+}
+
+.comment-button h5::before {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-color: black;
+}
+
+.comment-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.massive-comment-container {
+    display: flex;
+    margin-top: 120px;
+    gap: 60.84px;
+    max-width: 1600px;
+}
+
+.mini-containers {
+    position: relative;
+    margin-left: calc(-10px);
+    width: 317.16px;
+    height: 197px;
+    border-radius: 7px;
+    padding: 26px 29.77px;
+    background-color: white;
+    box-shadow: 0px 4px 6px #00000029;
+}
+
+.mini-containers span {
+    line-height: 10px;
+    font-size: 15px;
+    color: rgba(149, 149, 149, 1);
+}
+
+.mini-containers p {
+    padding-top: 17px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 257px;
+}
+
+.mini-container-main-comment img {
+    position: absolute;
+    top: 13px;
+    right: 15.39px;
+    width: 34px;
+    height: 34px;
+}
 
 
 
