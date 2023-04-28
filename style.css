@@ -229,22 +229,35 @@ nav ul {
 .outils-box {
     display: flex;
     flex-wrap: wrap;
-    width: 900px;
+    width: 800px;
     gap: 15px;
     padding-top: 63px;
-}
-
-.outils-box p {
-    font-size: 14px;
+    letter-spacing: 1.3px;
+    font-size: 10px;
 }
 
 .outils-box span {
-    font-size: 16px;
-    text-align: center;
-    padding-top: 9px;
-    width: calc(100% - 80%);
+    margin-top: 9px;
+    font-size: 12px;  
+}
+
+.outils-mini-box {
+    padding-left: 30px;
+    padding-top: 13px;
+    max-width: 148.13px;
     height: 34px;
-    box-shadow: 0px 2px 4px #00000021;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+}
+
+.outils-mini-box p {
+    padding-right: 25px;
+}
+
+.outils-bottom-box {
+    display: flex;
+    gap: 15px;
+    padding-left: 66px;
 }
 
 .bruxelles-box-rows {
@@ -373,6 +386,66 @@ nav ul {
     vertical-align: middle;
     color: white;
 }
+
+/* section4 */
+
+.mein-title h2 {
+    margin-top: 180px;
+    width: 350px;
+    letter-spacing: 9px;
+}
+
+.pour-changer-le-monde-box {
+    padding-top: 90px;
+    display: flex;
+    gap: 133px;
+}
+
+.pour-changer-le-monde-paragraph h3 {
+    letter-spacing: 5px;
+}
+
+.pour-changer-le-monde-paragraph p {
+    padding-top: 30px;
+    width: 400px;
+    line-height: 32px;
+}
+
+.thematique-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    gap: 14.87px;
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    padding-top: 93.17px;
+}
+
+.thematique-box span {
+    padding-top: 9px;
+}
+
+
+.mini-boxs {
+    padding-left: 30px;
+    padding-top: 12px;
+    max-width: 148.13px;
+    height: 34px;
+    color: white;
+    background-color: rgba(8, 101, 222, 1);
+}
+
+.mini-boxs p {
+    padding-right: 26px;
+}
+
+.thematique-bottom-box {
+    display: flex;
+    gap: 14.87px;
+    padding-left: 92px;
+}
+
+
 
 
 
