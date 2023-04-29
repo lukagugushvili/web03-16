@@ -19,6 +19,10 @@ body {
     background-color: rgba(247, 247, 247, 1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* header */
 
 header {
@@ -683,6 +687,7 @@ footer {
     width: 27px;
     height: 27px;
 }
+
 
 
 
